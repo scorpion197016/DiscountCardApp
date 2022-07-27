@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0E49B9288FDBF800768B30 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E49B8288FDBF800768B30 /* Extensions.swift */; };
+		2E0E49BB2891326100768B30 /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E49BA2891326100768B30 /* CardImageView.swift */; };
+		2E0E49BD2891345A00768B30 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E49BC2891345A00768B30 /* CustomTextField.swift */; };
+		2E163BBE288BE97A009125BF /* CreateNewCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E163BBD288BE97A009125BF /* CreateNewCardViewModel.swift */; };
+		2E43DB8B28797CE200FB812D /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43DB8A28797CE200FB812D /* ImageSaver.swift */; };
+		2E43DB8D2879877300FB812D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43DB8C2879877300FB812D /* MainViewController.swift */; };
+		2E43DB902879B8AB00FB812D /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43DB8F2879B8AB00FB812D /* CardCollectionViewCell.swift */; };
+		2E43DB952879C22D00FB812D /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43DB942879C22D00FB812D /* AppModel.swift */; };
+		2E43DB9A287B4F3E00FB812D /* CreateNewCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43DB99287B4F3E00FB812D /* CreateNewCardViewController.swift */; };
+		2E8DC58A288E94BB00FF9CAE /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8DC589288E94BB00FF9CAE /* MainViewModel.swift */; };
+		2E93026E288DA5FA00E4479A /* CardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E93026D288DA5FA00E4479A /* CardDetailsViewController.swift */; };
+		2EC1BA462870A48F00EAB96C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC1BA452870A48F00EAB96C /* AppDelegate.swift */; };
+		2EC1BA482870A48F00EAB96C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC1BA472870A48F00EAB96C /* SceneDelegate.swift */; };
+		2EC1BA4D2870A48F00EAB96C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC1BA4B2870A48F00EAB96C /* Main.storyboard */; };
+		2EC1BA4F2870A49000EAB96C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC1BA4E2870A49000EAB96C /* Assets.xcassets */; };
+		2EC1BA522870A49000EAB96C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC1BA502870A49000EAB96C /* LaunchScreen.storyboard */; };
+		2EC1BA5D2879686A00EAB96C /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC1BA5C2879686A00EAB96C /* CardModel.swift */; };
+		2EC1BA6628796AA700EAB96C /* BarcodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC1BA6528796AA700EAB96C /* BarcodeGenerator.swift */; };
+		BD90A10B5C582623DB6D32DC /* Pods_DiscountCardAppUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8323BA0D18AFC41569DC8B7D /* Pods_DiscountCardAppUIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E08B6D5DB32E914CBD873FC /* Pods-DiscountCardAppUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscountCardAppUIKit.release.xcconfig"; path = "Target Support Files/Pods-DiscountCardAppUIKit/Pods-DiscountCardAppUIKit.release.xcconfig"; sourceTree = "<group>"; };
+		28326112B2C01BE0469F9D69 /* Pods-DiscountCardAppUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscountCardAppUIKit.debug.xcconfig"; path = "Target Support Files/Pods-DiscountCardAppUIKit/Pods-DiscountCardAppUIKit.debug.xcconfig"; sourceTree = "<group>"; };
+		2E0E49B8288FDBF800768B30 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2E0E49BA2891326100768B30 /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
+		2E0E49BC2891345A00768B30 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		2E163BBD288BE97A009125BF /* CreateNewCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewCardViewModel.swift; sourceTree = "<group>"; };
+		2E43DB8A28797CE200FB812D /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		2E43DB8C2879877300FB812D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2E43DB8F2879B8AB00FB812D /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		2E43DB942879C22D00FB812D /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		2E43DB99287B4F3E00FB812D /* CreateNewCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewCardViewController.swift; sourceTree = "<group>"; };
+		2E8DC589288E94BB00FF9CAE /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		2E93026D288DA5FA00E4479A /* CardDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsViewController.swift; sourceTree = "<group>"; };
+		2EC1BA422870A48F00EAB96C /* DiscountCardAppUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscountCardAppUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC1BA452870A48F00EAB96C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EC1BA472870A48F00EAB96C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2EC1BA4C2870A48F00EAB96C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EC1BA4E2870A49000EAB96C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EC1BA512870A49000EAB96C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EC1BA532870A49000EAB96C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EC1BA5C2879686A00EAB96C /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		2EC1BA6528796AA700EAB96C /* BarcodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeGenerator.swift; sourceTree = "<group>"; };
+		8323BA0D18AFC41569DC8B7D /* Pods_DiscountCardAppUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiscountCardAppUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EC1BA3F2870A48F00EAB96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD90A10B5C582623DB6D32DC /* Pods_DiscountCardAppUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E163BBC288BE955009125BF /* CreatingNewCard */ = {
+			isa = PBXGroup;
+			children = (
+				2E43DB99287B4F3E00FB812D /* CreateNewCardViewController.swift */,
+				2E163BBD288BE97A009125BF /* CreateNewCardViewModel.swift */,
+			);
+			path = CreatingNewCard;
+			sourceTree = "<group>";
+		};
+		2E43DB8E2879B73600FB812D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E43DB8F2879B8AB00FB812D /* CardCollectionViewCell.swift */,
+				2E0E49BA2891326100768B30 /* CardImageView.swift */,
+				2E0E49BC2891345A00768B30 /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E8DC588288E948D00FF9CAE /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				2E43DB8C2879877300FB812D /* MainViewController.swift */,
+				2E8DC589288E94BB00FF9CAE /* MainViewModel.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		2EC1BA392870A48F00EAB96C = {
+			isa = PBXGroup;
+			children = (
+				2EC1BA442870A48F00EAB96C /* DiscountCardAppUIKit */,
+				2EC1BA432870A48F00EAB96C /* Products */,
+				550E4794AC63756DED76C5A0 /* Pods */,
+				4C5A5C8459188ABE37F77BD4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2EC1BA432870A48F00EAB96C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EC1BA422870A48F00EAB96C /* DiscountCardAppUIKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EC1BA442870A48F00EAB96C /* DiscountCardAppUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E8DC588288E948D00FF9CAE /* MainView */,
+				2E163BBC288BE955009125BF /* CreatingNewCard */,
+				2E43DB8E2879B73600FB812D /* View */,
+				2EC1BA6428796A9700EAB96C /* Resources */,
+				2EC1BA5E2879687000EAB96C /* Models */,
+				2E93026D288DA5FA00E4479A /* CardDetailsViewController.swift */,
+				2EC1BA4B2870A48F00EAB96C /* Main.storyboard */,
+				2EC1BA4E2870A49000EAB96C /* Assets.xcassets */,
+				2EC1BA502870A49000EAB96C /* LaunchScreen.storyboard */,
+				2EC1BA532870A49000EAB96C /* Info.plist */,
+			);
+			path = DiscountCardAppUIKit;
+			sourceTree = "<group>";
+		};
+		2EC1BA5E2879687000EAB96C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2EC1BA5C2879686A00EAB96C /* CardModel.swift */,
+				2E43DB942879C22D00FB812D /* AppModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2EC1BA6428796A9700EAB96C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2EC1BA472870A48F00EAB96C /* SceneDelegate.swift */,
+				2EC1BA452870A48F00EAB96C /* AppDelegate.swift */,
+				2E0E49B8288FDBF800768B30 /* Extensions.swift */,
+				2EC1BA6528796AA700EAB96C /* BarcodeGenerator.swift */,
+				2E43DB8A28797CE200FB812D /* ImageSaver.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C5A5C8459188ABE37F77BD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8323BA0D18AFC41569DC8B7D /* Pods_DiscountCardAppUIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		550E4794AC63756DED76C5A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28326112B2C01BE0469F9D69 /* Pods-DiscountCardAppUIKit.debug.xcconfig */,
+				0E08B6D5DB32E914CBD873FC /* Pods-DiscountCardAppUIKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EC1BA412870A48F00EAB96C /* DiscountCardAppUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EC1BA562870A49000EAB96C /* Build configuration list for PBXNativeTarget "DiscountCardAppUIKit" */;
+			buildPhases = (
+				A4FD3AE20E6320EFF2FA1749 /* [CP] Check Pods Manifest.lock */,
+				2EC1BA3E2870A48F00EAB96C /* Sources */,
+				2EC1BA3F2870A48F00EAB96C /* Frameworks */,
+				2EC1BA402870A48F00EAB96C /* Resources */,
+				DA96B4EA076AB37D91C803D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscountCardAppUIKit;
+			productName = DiscountCardAppUIKit;
+			productReference = 2EC1BA422870A48F00EAB96C /* DiscountCardAppUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EC1BA3A2870A48F00EAB96C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2EC1BA412870A48F00EAB96C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2EC1BA3D2870A48F00EAB96C /* Build configuration list for PBXProject "DiscountCardAppUIKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EC1BA392870A48F00EAB96C;
+			productRefGroup = 2EC1BA432870A48F00EAB96C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EC1BA412870A48F00EAB96C /* DiscountCardAppUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EC1BA402870A48F00EAB96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC1BA522870A49000EAB96C /* LaunchScreen.storyboard in Resources */,
+				2EC1BA4F2870A49000EAB96C /* Assets.xcassets in Resources */,
+				2EC1BA4D2870A48F00EAB96C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4FD3AE20E6320EFF2FA1749 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiscountCardAppUIKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA96B4EA076AB37D91C803D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiscountCardAppUIKit/Pods-DiscountCardAppUIKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiscountCardAppUIKit/Pods-DiscountCardAppUIKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiscountCardAppUIKit/Pods-DiscountCardAppUIKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EC1BA3E2870A48F00EAB96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E43DB902879B8AB00FB812D /* CardCollectionViewCell.swift in Sources */,
+				2E43DB8D2879877300FB812D /* MainViewController.swift in Sources */,
+				2E0E49BD2891345A00768B30 /* CustomTextField.swift in Sources */,
+				2E0E49BB2891326100768B30 /* CardImageView.swift in Sources */,
+				2E43DB952879C22D00FB812D /* AppModel.swift in Sources */,
+				2E43DB8B28797CE200FB812D /* ImageSaver.swift in Sources */,
+				2E43DB9A287B4F3E00FB812D /* CreateNewCardViewController.swift in Sources */,
+				2E93026E288DA5FA00E4479A /* CardDetailsViewController.swift in Sources */,
+				2EC1BA6628796AA700EAB96C /* BarcodeGenerator.swift in Sources */,
+				2EC1BA5D2879686A00EAB96C /* CardModel.swift in Sources */,
+				2E0E49B9288FDBF800768B30 /* Extensions.swift in Sources */,
+				2EC1BA462870A48F00EAB96C /* AppDelegate.swift in Sources */,
+				2EC1BA482870A48F00EAB96C /* SceneDelegate.swift in Sources */,
+				2E163BBE288BE97A009125BF /* CreateNewCardViewModel.swift in Sources */,
+				2E8DC58A288E94BB00FF9CAE /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EC1BA4B2870A48F00EAB96C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EC1BA4C2870A48F00EAB96C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EC1BA502870A49000EAB96C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EC1BA512870A49000EAB96C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EC1BA542870A49000EAB96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EC1BA552870A49000EAB96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EC1BA572870A49000EAB96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28326112B2C01BE0469F9D69 /* Pods-DiscountCardAppUIKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8H7J4GZKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiscountCardAppUIKit/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To scan barcode";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita9x.DiscountCardAppUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EC1BA582870A49000EAB96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E08B6D5DB32E914CBD873FC /* Pods-DiscountCardAppUIKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8H7J4GZKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiscountCardAppUIKit/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To scan barcode";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita9x.DiscountCardAppUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EC1BA3D2870A48F00EAB96C /* Build configuration list for PBXProject "DiscountCardAppUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC1BA542870A49000EAB96C /* Debug */,
+				2EC1BA552870A49000EAB96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EC1BA562870A49000EAB96C /* Build configuration list for PBXNativeTarget "DiscountCardAppUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC1BA572870A49000EAB96C /* Debug */,
+				2EC1BA582870A49000EAB96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EC1BA3A2870A48F00EAB96C /* Project object */;
+}
